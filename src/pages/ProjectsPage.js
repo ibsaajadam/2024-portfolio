@@ -9,6 +9,13 @@ function ProjectsPage() {
       techStack: ['React', 'TypeScript', 'Bootstrap', 'JSON'],
       githubLink: 'https://github.com/ibsaajadam/bible-categories',
       liveDemo: 'https://biblecategories.netlify.app/'
+    },
+    {
+      title: 'Review Spotter',
+      description: 'A React app where users can browse attractions, leave reviews, and rate attractions.',
+      techStack: ['React', 'Firebase', 'Bootstrap', 'CSS'],
+      githubLink: 'https://github.com/ibsaajadam/review-spotter',
+      liveDemo: 'https://review-spotter.netlify.app/'
     }
   ];
 
