@@ -16,6 +16,13 @@ function ProjectsPage() {
       techStack: ['React', 'Firebase', 'Bootstrap', 'CSS'],
       githubLink: 'https://github.com/ibsaajadam/review-spotter',
       liveDemo: 'https://review-spotter.netlify.app/'
+    },
+    {
+      title: "That's My Doggo",
+      description: 'A PHP and MySQL project with an API that searches for different dog breeds. Uses JavaScript for dynamic interaction.',
+      techStack: ['PHP', 'MySQL', 'JavaScript', 'API'],
+      githubLink: 'https://github.com/ibsaajadam/hey-buddy-php-mysql',
+      liveDemo: '' // Add live demo link if available
     }
   ];
 
@@ -33,7 +40,9 @@ function ProjectsPage() {
                 </Card.Text>
                 <Button variant="primary" href={project.githubLink} target="_blank">View Code</Button>
                 {' '}
-                <Button variant="secondary" href={project.liveDemo} target="_blank">Live Demo</Button>
+                {project.liveDemo && (
+                  <Button variant="secondary" href={project.liveDemo} target="_blank">Live Demo</Button>
+                )}
               </Card.Body>
             </Card>
           </Col>
