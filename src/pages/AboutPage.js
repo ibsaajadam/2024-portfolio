@@ -10,7 +10,7 @@ function AboutPage() {
 
           <Button 
             variant="outline-dark" 
-            href="https://drive.google.com/file/d/1KKmud_sdl_X7sCSMpMykiBGFLM1z1PHn/view?usp=sharing"
+            href="https://drive.google.com/file/d/1oGBiiLu-3a6vlN6uZ-XM-c9LYosWpucw/view?usp=sharing"
             target="_blank" 
             rel="noopener noreferrer"
             className="mb-4"
@@ -39,9 +39,10 @@ function AboutPage() {
           <h2>Technologies & Skills</h2>
           <ul>
             <li><strong>Front-End:</strong> HTML, CSS, JavaScript, Sass, BEM, ReactJS, VueJS</li>
-            <li><strong>Back-End:</strong> PHP, Twig, Drupal, WordPress</li>
-            <li><strong>Database Management:</strong> Google Firebase, MySQL</li>
-            <li><strong>Tools:</strong> GitLab, Git, Google Suite</li>
+            <li><strong>Back-End:</strong> PHP, Twig, Drupal, WordPress, Flask</li>
+            <li><strong>Database Management:</strong> Google Firebase, MySQL, SQLite</li>
+            <li><strong>Tools:</strong> GitLab, Git, Google Suite, Heroku</li>
+            <li><strong>Additional Skills from Recent Project:</strong> Python, Flask, Tailwind CSS</li>
           </ul>
         </Col>
       </Row>

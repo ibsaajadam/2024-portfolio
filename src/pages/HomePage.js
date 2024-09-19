@@ -9,6 +9,9 @@ function HomePage() {
       <Row>
         <Col>
           <h1>Welcome to My Portfolio</h1>
+          <h2 className="mt-3" style={{ fontWeight: 'bold', fontSize: '2rem', color: '#007bff' }}>
+            Ibsaa Jamal Adam
+          </h2>
           <p className="lead">I'm a Junior Web Developer with experience in Drupal, React, PHP, and more.</p>
           <Image 
             src={myPhoto} 
@@ -29,7 +32,7 @@ function HomePage() {
           <Button 
             variant="outline-dark" 
             style={{ backgroundColor: '#f8f9fa', color: '#000' }}
-            href="https://drive.google.com/file/d/1KKmud_sdl_X7sCSMpMykiBGFLM1z1PHn/view?usp=sharing"
+            href="https://drive.google.com/file/d/1oGBiiLu-3a6vlN6uZ-XM-c9LYosWpucw/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
