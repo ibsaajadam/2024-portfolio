@@ -17,7 +17,7 @@ function ContactPage() {
             <strong>GitHub:</strong> <a href="https://github.com/ibsaajadam" target="_blank" rel="noopener noreferrer">github.com/ibsaajadam</a>
           </p>
           <p>
-            <strong>Location:</strong> Boston, MA
+            <strong>Location:</strong> St.Thomas, U.S. Virgin Islands
           </p>
         </Col>
       </Row>
