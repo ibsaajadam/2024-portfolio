@@ -4,16 +4,24 @@ import bibleCategoriesImage from '../assets/bible-categories-image.png';
 import reviewSpotterImage from '../assets/review-spotter-image.png';
 import doggoImage from '../assets/doggo-image.png';
 import gymAmenitiesImage from '../assets/gym-amenities-image.png';
-
+import jobBoardImage from '../assets/job-board-image.png';
 
 function ProjectsPage() {
   const projects = [
     {
-      title: 'Bible Categories App',
-      description: 'A React and TypeScript app to browse Bible categories and view corresponding verses.',
+      title: 'Job Board App',
+      description: 'A React.js and Next.js application that helps users find job listings based on location and skills.',
+      techStack: ['React', 'Next.js', 'Tailwind CSS'],
+      githubLink: 'https://github.com/ibsaajadam/job-board',
+      liveDemo: 'https://updated-job-board.netlify.app/',
+      image: jobBoardImage
+    },
+    {
+      title: 'Motivational Quotes Categories App',
+      description: 'A React and TypeScript app to browse Motivational Quotes from different people.',
       techStack: ['React', 'TypeScript', 'Bootstrap', 'JSON'],
-      githubLink: 'https://github.com/ibsaajadam/bible-categories',
-      liveDemo: 'https://biblecategories.netlify.app/',
+      githubLink: 'https://github.com/ibsaajadam/motivational-quotes',
+      liveDemo: 'https://motivational-quotes123.netlify.app/',
       image: bibleCategoriesImage
     },
     {
