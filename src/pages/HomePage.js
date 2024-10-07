@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import myPhoto from '../assets/my-photo.jpg';
+// import myPhoto from '../assets/my-photo.jpg';
 
 function HomePage() {
   return (
@@ -13,7 +13,7 @@ function HomePage() {
             Ibsaa Jamal Adam
           </h2>
           <p className="lead">I'm a Junior Web Developer with experience in Drupal, React, PHP, and more.</p>
-          <Image 
+          {/* <Image 
             src={myPhoto} 
             alt="My Photo"
             style={{
@@ -23,7 +23,7 @@ function HomePage() {
               borderRadius: '50%'
             }} 
             className="mb-4"
-          />
+          /> */}
           <p>
             Check out my projects below and feel free to reach out!
           </p>
