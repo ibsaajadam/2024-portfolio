@@ -24,6 +24,7 @@ function HomePage() {
             }} 
             className="mb-4"
           /> */}
+          
           <p>
             Check out my projects below and feel free to reach out!
           </p>
