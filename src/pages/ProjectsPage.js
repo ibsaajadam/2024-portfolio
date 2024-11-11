@@ -5,6 +5,7 @@ import reviewSpotterImage from '../assets/review-spotter-image.png';
 import doggoImage from '../assets/doggo-image.png';
 import gymAmenitiesImage from '../assets/gym-amenities-image.png';
 import jobBoardImage from '../assets/job-board-image.png';
+import wnbaJobsImage from '../assets/wnba-jobs.png';
 
 function ProjectsPage() {
   const projects = [
@@ -45,8 +46,15 @@ function ProjectsPage() {
       description: 'A Python Flask app that allows users to view gym amenities and court availability. Data is stored in SQLite and served dynamically.',
       techStack: ['Python', 'Flask', 'SQLite', 'Tailwind CSS'],
       githubLink: 'https://github.com/ibsaajadam/gym-amenities',
-      liveDemo: 'https://gym-amenities-2bc9d513281c.herokuapp.com/',
       image: gymAmenitiesImage
+    },
+    {
+      title: 'WNBA Jobs Site',
+      description: 'A mock WNBA jobs site built with React.js. Users can log in using Google OAuth 2.0, add and delete job listings that are stored and retrieved from Google Firebase Firestore.',
+      techStack: ['React', 'Google OAuth 2.0', 'Firebase Firestore', 'Bootstrap'],
+      githubLink: 'https://github.com/ibsaajadam/React.js-WNBA',
+      liveDemo: 'https://react-jobs-500ec.web.app/',
+      image: wnbaJobsImage
     }
   ];
 
