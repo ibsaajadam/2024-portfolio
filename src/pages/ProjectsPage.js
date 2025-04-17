@@ -81,7 +81,7 @@ function ProjectsPage() {
       title: 'Flick BFF',
       description:
         'A social network for movie lovers. Users can build watchlists, connect with others based on shared movie and show preferences, and follow friends.',
-      techStack: ['React.js', 'TailwindCSS', 'Firebase Storage'],
+      techStack: ['React.js', 'TMDb API', 'TailwindCSS', 'Firebase Storage'],
       githubLink: '',
       liveDemo: 'https://flickbff.com/',
       image: flickBffImage
