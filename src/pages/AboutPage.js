@@ -32,7 +32,7 @@ function AboutPage() {
             I’m passionate about the process of taking a project from an initial idea to its final stages. Whether it’s solving complex problems or finding creative ways to improve a project, I enjoy the challenge. I consider myself a team player who brings a sense of humor and a positive, can-do attitude to every project I’m involved in.
           </p>
           <p>
-            Outside of work, I’m committed to self-improvement and personal growth. I've spent a few years in therapy working on bettering my myself along with attending small groups at church and reading a few self-help books. I also enjoy running, boxing, entrepreneurship and bringing a positive attitude wherever I go.
+            Outside of work, I’m committed to self-improvement and personal growth. I've spent a few years in therapy working on bettering myself along with attending small groups at church and reading a few self-help books. I also enjoy running, boxing, entrepreneurship and bringing a positive attitude wherever I go.
           </p>
 
           <hr />
