@@ -13,7 +13,7 @@ function HomePage() {
             Ibsaa Jamal Adam
           </h2>
           <p className="lead">I'm a Junior Web Developer with experience in Drupal, React, PHP, and more.</p>
-          <Image 
+          {/* <Image 
             src={myPhoto} 
             alt="My Photo"
             style={{
@@ -23,7 +23,7 @@ function HomePage() {
               borderRadius: '50%'
             }} 
             className="mb-4"
-          />
+          /> */}
           
           <p>
             Check out my projects below and feel free to reach out!
@@ -33,7 +33,7 @@ function HomePage() {
           <Button 
             variant="outline-dark" 
             style={{ backgroundColor: '#f8f9fa', color: '#000' }}
-            href="https://drive.google.com/file/d/1ubruAZzmCsoQG2Ouaq6lPuoH4qjUc72d/view?usp=sharing"
+            href="https://drive.google.com/file/d/13DxIUY6KWpq5R7MmiJymQzWg-EGKNc7d/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
