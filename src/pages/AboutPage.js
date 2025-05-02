@@ -6,43 +6,45 @@ function AboutPage() {
     <Container className="mt-5">
       <Row>
         <Col md={{ span: 8, offset: 2 }}>
-          <h1>About Me</h1>
+          <h1 className="mb-3">About Me</h1>
 
-          <Button 
-            variant="outline-dark" 
+          <Button
+            variant="dark"
             href="https://drive.google.com/file/d/13DxIUY6KWpq5R7MmiJymQzWg-EGKNc7d/view?usp=sharing"
-            target="_blank" 
+            target="_blank"
             rel="noopener noreferrer"
             className="mb-4"
-            style={{ backgroundColor: '#f8f9fa', color: '#000' }}
           >
-            View Resume
+            View My Resume
           </Button>
 
           <p>
-            Hi, my name is <strong>Ibsaa Jamal Adam</strong>. I'm new to web development and web design, but I’ve already gained valuable experience in my first role at Worcester Polytechnic Institute (WPI). There, I worked on the University's front-facing website, focusing on site improvements, handling bug fixes, and enhancing the overall user experience.
+            Hi, I’m <strong>Ibsaa Jamal Adam</strong>, a web developer with hands-on experience building and maintaining websites using tools like React, PHP, and Drupal.
           </p>
+
           <p>
-            When I started, I didn’t have any experience with Drupal, the content management system used at WPI. However, I quickly adapted, learning the platform and applying that knowledge to my daily tasks. My role involved handling bug fixes, tracking and noting merges with GitLab, and pushing development code to Acquia, the hosting platform we used for the website.
+            At Worcester Polytechnic Institute (WPI), I contributed directly to the university’s main website—resolving bugs, enhancing UI components, and pushing updates through GitLab and Acquia. Although I began with no Drupal experience, I quickly adapted and became confident using it in production environments.
           </p>
+
           <p>
-            I also collaborated with the UI Designer to refine my design skills, and together we worked on improving the user interface and overall usability of the site. This collaboration allowed me to bring new ideas to life while focusing on delivering a better user experience.
+            I worked closely with UI designers and developers to implement design improvements, optimize user experience, and manage content modules. This collaborative environment helped sharpen both my technical skills and my eye for design.
           </p>
+
           <p>
-            I’m passionate about the process of taking a project from an initial idea to its final stages. Whether it’s solving complex problems or finding creative ways to improve a project, I enjoy the challenge. I consider myself a team player who brings a sense of humor and a positive, can-do attitude to every project I’m involved in.
+            Beyond my technical work, I’m passionate about building clean, user-centered experiences. Whether solving bugs or launching new features, I approach every project with creativity, curiosity, and a team-first mindset.
           </p>
+
           <p>
-            Outside of work, I’m committed to self-improvement and personal growth. I've spent a few years in therapy working on bettering myself along with attending small groups at church and reading a few self-help books. I also enjoy running, boxing, entrepreneurship and bringing a positive attitude wherever I go.
+            Outside of tech, I’m focused on personal growth. I’ve spent time in therapy, read self-help books, and attended church-based small groups. I also enjoy running, boxing, entrepreneurship, and bringing a positive attitude wherever I go.
           </p>
 
           <hr />
-          <h2>Technologies & Skills</h2>
+          <h2 className="mt-4">Technologies & Skills</h2>
           <ul>
-            <li><strong>Front-End:</strong> HTML, CSS, JavaScript, Sass, BEM, ReactJS, VueJS</li>
-            <li><strong>Back-End:</strong> PHP, Twig, Drupal, WordPress, Flask</li>
-            <li><strong>Database Management:</strong> Google Firebase, MySQL, SQLite</li>
-            <li><strong>Tools:</strong> GitLab, Git, Google Suite, Heroku</li>
-            <li><strong>Additional Skills from Recent Project:</strong> Python, Flask, Tailwind CSS</li>
+            <li><strong>Front-End:</strong> HTML, CSS, JavaScript, Sass, React, Vue, BEM, Bootstrap, Tailwind CSS</li>
+            <li><strong>Back-End:</strong> PHP, Flask, Drupal, WordPress, Twig</li>
+            <li><strong>Database & Hosting:</strong> Firebase, MySQL, SQLite, Acquia, Heroku</li>
+            <li><strong>Tools & Platforms:</strong> Git, GitLab, Google Suite, Figma</li>
           </ul>
         </Col>
       </Row>

@@ -1,5 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { FcGoogle } from 'react-icons/fc';
+
 import bibleCategoriesImage from '../assets/bible-categories-image.png';
 import reviewSpotterImage from '../assets/review-spotter-image.png';
 import doggoImage from '../assets/doggo-image.png';
@@ -8,7 +10,7 @@ import jobBoardImage from '../assets/job-board-image.png';
 import wnbaJobsImage from '../assets/wnba-jobs.png';
 import flickBffImage from '../assets/flick-bff.png';
 import trackAMealImage from '../assets/track-a-meal.png';
-import WPIImage from '../assets/wpi-edu.png'
+import WPIImage from '../assets/wpi-edu.png';
 
 function ProjectsPage() {
   const portfolioProjects = [
@@ -42,8 +44,8 @@ function ProjectsPage() {
     {
       title: 'Review Spotter',
       description:
-        'A React app where users can browse attractions, leave reviews, and rate attractions.',
-      techStack: ['React', 'Firebase', 'Bootstrap', 'CSS'],
+        'A React app where users can browse attractions, leave reviews, and rate attractions. Includes Google Authentication via Firebase for user login.',
+      techStack: ['React', 'Firebase', 'Bootstrap', 'CSS', 'Google Sign-In'],
       githubLink: 'https://github.com/ibsaajadam/review-spotter',
       liveDemo: 'https://review-spotter.netlify.app/',
       image: reviewSpotterImage
@@ -68,8 +70,8 @@ function ProjectsPage() {
     {
       title: 'WNBA Jobs Site',
       description:
-        'A mock WNBA jobs site built with React.js. Users can log in using Google OAuth 2.0, add and delete job listings that are stored and retrieved from Google Firebase Firestore.',
-      techStack: ['React', 'Google OAuth 2.0', 'Firebase Firestore', 'Bootstrap'],
+        'A React job board for WNBA fans and professionals. Users can sign in using Google Authentication, add job listings, and manage postings with Firebase Firestore integration.',
+      techStack: ['React', 'Firebase Firestore', 'Bootstrap', 'Google Sign-In'],
       githubLink: 'https://github.com/ibsaajadam/React.js-WNBA',
       liveDemo: 'https://react-jobs-500ec.web.app/',
       image: wnbaJobsImage
@@ -80,8 +82,8 @@ function ProjectsPage() {
     {
       title: 'Flick BFF',
       description:
-        'A social network for movie lovers. Users can build watchlists, connect with others based on shared movie and show preferences, and follow friends.',
-      techStack: ['React.js', 'TMDb API', 'TailwindCSS', 'Firebase Storage'],
+        'A social network for movie lovers. Users can log in with Google Authentication, build watchlists, connect with others based on shared movie/show preferences, and follow friends.',
+      techStack: ['React.js', 'TMDb API', 'TailwindCSS', 'Firebase Storage', 'Google Sign-In'],
       githubLink: '',
       liveDemo: 'https://flickbff.com/',
       image: flickBffImage
@@ -89,8 +91,8 @@ function ProjectsPage() {
     {
       title: 'Track A Meal',
       description:
-        'A nutrition-focused website that helps users explore nutritional info from popular fast food chains.',
-      techStack: ['React.js', 'TailwindCSS', 'Firebase Storage'],
+        'A nutrition-focused site that lets users explore meal data from popular fast food chains. Includes Google Authentication for personalized experience.',
+      techStack: ['React.js', 'TailwindCSS', 'Firebase Storage', 'Google Sign-In'],
       githubLink: '',
       liveDemo: 'https://trackameal.com/',
       image: trackAMealImage
@@ -108,7 +110,19 @@ function ProjectsPage() {
             <Card.Title>{project.title}</Card.Title>
             <Card.Text>{project.description}</Card.Text>
             <Card.Text>
-              <strong>Technologies:</strong> {project.techStack.join(', ')}
+              <strong>Technologies:</strong>{' '}
+              {project.techStack.map((tech, i) => (
+                <span key={i} className="d-inline-block me-2">
+                  {tech === 'Google Sign-In' ? (
+                    <>
+                      <FcGoogle style={{ marginBottom: '3px' }} /> {tech}
+                    </>
+                  ) : (
+                    tech
+                  )}
+                  {i < project.techStack.length - 1 && ','}
+                </span>
+              ))}
             </Card.Text>
             {project.githubLink && (
               <Button variant="primary" href={project.githubLink} target="_blank">
