@@ -8,8 +8,6 @@ import doggoImage from '../assets/doggo-image.png';
 import gymAmenitiesImage from '../assets/gym-amenities-image.png';
 import jobBoardImage from '../assets/job-board-image.png';
 import wnbaJobsImage from '../assets/wnba-jobs.png';
-import flickBffImage from '../assets/flick-bff.png';
-import trackAMealImage from '../assets/track-a-meal.png';
 import WPIImage from '../assets/wpi-edu.png';
 
 function ProjectsPage() {
@@ -78,27 +76,6 @@ function ProjectsPage() {
     }
   ];
 
-  const personalProjects = [
-    {
-      title: 'Flick BFF',
-      description:
-        'A social network for movie lovers. Users can log in with Google Authentication, build watchlists, connect with others based on shared movie/show preferences, and follow friends.',
-      techStack: ['React.js', 'TMDb API', 'TailwindCSS', 'Firebase Storage', 'Google Sign-In'],
-      githubLink: '',
-      liveDemo: 'https://flickbff.com/',
-      image: flickBffImage
-    },
-    {
-      title: 'Track A Meal',
-      description:
-        'A nutrition-focused site that lets users explore meal data from popular fast food chains. Includes Google Authentication for personalized experience.',
-      techStack: ['React.js', 'TailwindCSS', 'Firebase Storage', 'Google Sign-In'],
-      githubLink: '',
-      liveDemo: 'https://trackameal.com/',
-      image: trackAMealImage
-    }
-  ];
-
   const renderProjects = (projects) =>
     projects.map((project, index) => (
       <Col md={4} key={index} className="mb-4">
@@ -143,11 +120,6 @@ function ProjectsPage() {
     <Container className="mt-5">
       <h2 className="mb-4">Portfolio Projects</h2>
       <Row>{renderProjects(portfolioProjects)}</Row>
-
-      <hr className="my-5" />
-
-      <h2 className="mb-4">Personal Projects</h2>
-      <Row>{renderProjects(personalProjects)}</Row>
     </Container>
   );
 }
