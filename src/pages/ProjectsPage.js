@@ -3,6 +3,8 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import { FcGoogle } from 'react-icons/fc';
 
 import jobBoardImage from '../assets/job-board-image.png';
+import reviewSpotterImage from '../assets/review-spotter-image.png';
+import doggoImage from '../assets/doggo-image.png';
 import FlickBFFImage from '../assets/flickbff.png';
 import TrackAMealImage from '../assets/trackameal.png';
 
@@ -16,6 +18,24 @@ function ProjectsPage() {
       githubLink: 'https://github.com/ibsaajadam/job-board',
       liveDemo: 'https://updated-job-board.netlify.app/',
       image: jobBoardImage
+    },
+    {
+      title: 'Review Spotter',
+      description:
+        'A React app where users can browse attractions, leave reviews, and rate attractions. Includes Google Authentication via Firebase.',
+      techStack: ['React', 'Firebase', 'Bootstrap', 'CSS', 'Google Sign-In'],
+      githubLink: 'https://github.com/ibsaajadam/review-spotter',
+      liveDemo: 'https://review-spotter.netlify.app/',
+      image: reviewSpotterImage
+    },
+    {
+      title: "That's My Doggo",
+      description:
+        'A PHP and MySQL project with an API that searches for different dog breeds. Uses JavaScript for dynamic interaction.',
+      techStack: ['PHP', 'MySQL', 'JavaScript', 'API'],
+      githubLink: 'https://github.com/ibsaajadam/hey-buddy-php-mysql',
+      liveDemo: '',
+      image: doggoImage
     }
   ];
 
@@ -23,19 +43,19 @@ function ProjectsPage() {
     {
       title: 'Flick BFF',
       description:
-        'A movie matching social network that connects users based on similar movie and TV show preferences. Built with React, uses Google Authentication, and pulls data from the TMDB API.',
-      techStack: ['React', 'Google Sign-In', 'TMDB API', 'Bootstrap', 'Tailwind CSS'],
-      githubLink: '',
-      liveDemo: 'https://flickbff.com/',
+        'A React app that lets users list favorite movies and shows and connect with others based on shared taste.',
+      techStack: ['React', 'Tailwind CSS', 'Bootstrap'],
+      githubLink: 'https://github.com/ibsaajadam/flick-bff',
+      liveDemo: '',
       image: FlickBFFImage
     },
     {
       title: 'Track A Meal',
       description:
-        'A calorie tracking app focused on fast food restaurants like Wendy’s and McDonald’s. Built with React and features Google Authentication.',
-      techStack: ['React', 'Google Sign-In', 'Bootstrap', 'Tailwind CSS'],
-      githubLink: '',
-      liveDemo: 'https://trackameal.com/',
+        'A food tracking app built with React where users can log meals and monitor daily nutrition goals.',
+      techStack: ['React', 'Tailwind CSS', 'Bootstrap'],
+      githubLink: 'https://github.com/ibsaajadam/track-a-meal',
+      liveDemo: '',
       image: TrackAMealImage
     }
   ];
@@ -45,7 +65,11 @@ function ProjectsPage() {
       <Col md={4} key={index} className="mb-4">
         <Card>
           {project.image && (
-            <Card.Img variant="top" src={project.image} alt={`${project.title} image`} />
+            <Card.Img
+              variant="top"
+              src={project.image}
+              alt={`${project.title} image`}
+            />
           )}
           <Card.Body>
             <Card.Title>{project.title}</Card.Title>
