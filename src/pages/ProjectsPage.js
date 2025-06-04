@@ -2,25 +2,12 @@ import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import { FcGoogle } from 'react-icons/fc';
 
-import bibleCategoriesImage from '../assets/bible-categories-image.png';
-import reviewSpotterImage from '../assets/review-spotter-image.png';
-import doggoImage from '../assets/doggo-image.png';
-import gymAmenitiesImage from '../assets/gym-amenities-image.png';
 import jobBoardImage from '../assets/job-board-image.png';
-import wnbaJobsImage from '../assets/wnba-jobs.png';
-import WPIImage from '../assets/wpi-edu.png';
+import FlickBFFImage from '../assets/flickbff.png';
+import TrackAMealImage from '../assets/trackameal.png';
 
 function ProjectsPage() {
   const portfolioProjects = [
-    {
-      title: 'Worcester Polytechnic Institute Website & Faculty Pages',
-      description:
-        'Worked on WPI’s university website by adding and editing modules and blocks, customizing themes, and writing PHP code for custom functionality. Also maintained WordPress faculty pages including bios, profile images, and social/email links.',
-      techStack: ['Drupal', 'WordPress', 'PHP', 'BEM', 'Acquia'],
-      githubLink: '',
-      liveDemo: 'https://wpi.edu',
-      image: WPIImage
-    },
     {
       title: 'Job Board App',
       description:
@@ -29,50 +16,27 @@ function ProjectsPage() {
       githubLink: 'https://github.com/ibsaajadam/job-board',
       liveDemo: 'https://updated-job-board.netlify.app/',
       image: jobBoardImage
+    }
+  ];
+
+  const personalProjects = [
+    {
+      title: 'Flick BFF',
+      description:
+        'A movie matching social network that connects users based on similar movie and TV show preferences. Built with React, uses Google Authentication, and pulls data from the TMDB API.',
+      techStack: ['React', 'Google Sign-In', 'TMDB API', 'Bootstrap', 'Tailwind CSS'],
+      githubLink: '',
+      liveDemo: 'https://flickbff.com/',
+      image: FlickBFFImage
     },
     {
-      title: 'Motivational Quotes Categories App',
+      title: 'Track A Meal',
       description:
-        'A React and TypeScript app to browse Motivational Quotes from different people.',
-      techStack: ['React', 'TypeScript', 'Bootstrap', 'JSON'],
-      githubLink: 'https://github.com/ibsaajadam/motivational-quotes',
-      liveDemo: 'https://motivational-quotes123.netlify.app/',
-      image: bibleCategoriesImage
-    },
-    {
-      title: 'Review Spotter',
-      description:
-        'A React app where users can browse attractions, leave reviews, and rate attractions. Includes Google Authentication via Firebase for user login.',
-      techStack: ['React', 'Firebase', 'Bootstrap', 'CSS', 'Google Sign-In'],
-      githubLink: 'https://github.com/ibsaajadam/review-spotter',
-      liveDemo: 'https://review-spotter.netlify.app/',
-      image: reviewSpotterImage
-    },
-    {
-      title: "That's My Doggo",
-      description:
-        'A PHP and MySQL project with an API that searches for different dog breeds. Uses JavaScript for dynamic interaction.',
-      techStack: ['PHP', 'MySQL', 'JavaScript', 'API'],
-      githubLink: 'https://github.com/ibsaajadam/hey-buddy-php-mysql',
-      liveDemo: '',
-      image: doggoImage
-    },
-    {
-      title: 'Gym Amenities',
-      description:
-        'A Python Flask app that allows users to view gym amenities and court availability. Data is stored in SQLite and served dynamically.',
-      techStack: ['Python', 'Flask', 'SQLite', 'Tailwind CSS'],
-      githubLink: 'https://github.com/ibsaajadam/gym-amenities',
-      image: gymAmenitiesImage
-    },
-    {
-      title: 'WNBA Jobs Site',
-      description:
-        'A React job board for WNBA fans and professionals. Users can sign in using Google Authentication, add job listings, and manage postings with Firebase Firestore integration.',
-      techStack: ['React', 'Firebase Firestore', 'Bootstrap', 'Google Sign-In'],
-      githubLink: 'https://github.com/ibsaajadam/React.js-WNBA',
-      liveDemo: 'https://react-jobs-500ec.web.app/',
-      image: wnbaJobsImage
+        'A calorie tracking app focused on fast food restaurants like Wendy’s and McDonald’s. Built with React and features Google Authentication.',
+      techStack: ['React', 'Google Sign-In', 'Bootstrap', 'Tailwind CSS'],
+      githubLink: '',
+      liveDemo: 'https://trackameal.com/',
+      image: TrackAMealImage
     }
   ];
 
@@ -120,6 +84,9 @@ function ProjectsPage() {
     <Container className="mt-5">
       <h2 className="mb-4">Portfolio Projects</h2>
       <Row>{renderProjects(portfolioProjects)}</Row>
+
+      <h2 className="mb-4 mt-5">Personal Projects</h2>
+      <Row>{renderProjects(personalProjects)}</Row>
     </Container>
   );
 }
