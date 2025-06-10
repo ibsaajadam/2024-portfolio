@@ -32,7 +32,7 @@ function ProjectsPage() {
       title: "That's My Doggo",
       description:
         'A PHP and MySQL project with an API that searches for different dog breeds. Uses JavaScript for dynamic interaction.',
-      techStack: ['PHP', 'MySQL', 'JavaScript', 'API'],
+      techStack: ['PHP', 'MySQL', 'JavaScript', 'Dog Breed API'],
       githubLink: 'https://github.com/ibsaajadam/hey-buddy-php-mysql',
       liveDemo: '',
       image: doggoImage
