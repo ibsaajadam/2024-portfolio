@@ -43,12 +43,12 @@ function ProjectsPage() {
     {
       title: 'Flick BFF',
       description:
-        'A React app that lets users list favorite movies and shows and connect with others based on shared taste.',
-      techStack: ['React', 'Tailwind CSS', 'Bootstrap'],
-      githubLink: 'https://github.com/ibsaajadam/flick-bff',
-      liveDemo: '',
+        'A Next.js social network that lets users build a favorites list of movies and shows, rate them, and connect with others based on shared taste. Features include matches, messaging, notifications, star ratings, full movie/show pages via the TMDB API, and user privacy settings.',
+      techStack: ['Next.js', 'React', 'Tailwind CSS', 'Supabase', 'TMDB API'],
+      githubLink: '',
+      liveDemo: 'https://www.flickbff.com',
       image: FlickBFFImage
-    },
+    },    
     {
       title: 'Track A Meal',
       description:
