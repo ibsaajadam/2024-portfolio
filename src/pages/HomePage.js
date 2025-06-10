@@ -13,7 +13,7 @@ function HomePage() {
             Ibsaa Jamal Adam
           </h2>
           <p className="lead">I'm a Junior Web Developer with experience in Drupal, React, PHP, and more.</p>
-          {/* <Image 
+          <Image 
             src={myPhoto} 
             alt="My Photo"
             style={{
@@ -23,7 +23,7 @@ function HomePage() {
               borderRadius: '50%'
             }} 
             className="mb-4"
-          /> */}
+          />
           
           <p>
             Check out my projects below and feel free to reach out!
@@ -39,6 +39,13 @@ function HomePage() {
           >
             View Resume
           </Button>
+        </Col>
+      </Row>
+
+      {/* Quote at the bottom */}
+      <Row className="mt-5">
+        <Col>
+          <p style={{ fontStyle: 'italic', color: '#6c757d' }}>"Understanding is Key"</p>
         </Col>
       </Row>
     </Container>
