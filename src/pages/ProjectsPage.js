@@ -23,7 +23,7 @@ function ProjectsPage() {
       title: 'Review Spotter',
       description:
         'A React app where users can browse attractions, leave reviews, and rate attractions. Includes Google Authentication via Firebase.',
-      techStack: ['React', 'Firebase Storage & Authentication', 'Bootstrap', 'CSS', 'Google Sign-In'],
+      techStack: ['React', 'Firebase Storage & Authentication', 'Bootstrap'],
       githubLink: 'https://github.com/ibsaajadam/review-spotter',
       liveDemo: 'https://review-spotter.netlify.app/',
       image: reviewSpotterImage
