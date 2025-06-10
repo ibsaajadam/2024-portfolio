@@ -23,7 +23,7 @@ function ProjectsPage() {
       title: 'Review Spotter',
       description:
         'A React app where users can browse attractions, leave reviews, and rate attractions. Includes Google Authentication via Firebase.',
-      techStack: ['React', 'Firebase', 'Bootstrap', 'CSS', 'Google Sign-In'],
+      techStack: ['React', 'Firebase Storage & Authentication', 'Bootstrap', 'CSS', 'Google Sign-In'],
       githubLink: 'https://github.com/ibsaajadam/review-spotter',
       liveDemo: 'https://review-spotter.netlify.app/',
       image: reviewSpotterImage
@@ -53,7 +53,7 @@ function ProjectsPage() {
       title: 'Track A Meal',
       description:
         'A food tracking app built with React where users can log meals and monitor daily nutrition goals.',
-      techStack: ['React', 'Tailwind CSS', 'Bootstrap'],
+      techStack: ['React', 'Tailwind CSS', 'Bootstrap', 'Firebase Storage & Authentication'],
       githubLink: '',
       liveDemo: 'https://www.trackameal.com',
       image: TrackAMealImage
