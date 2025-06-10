@@ -54,8 +54,8 @@ function ProjectsPage() {
       description:
         'A food tracking app built with React where users can log meals and monitor daily nutrition goals.',
       techStack: ['React', 'Tailwind CSS', 'Bootstrap'],
-      githubLink: 'https://github.com/ibsaajadam/track-a-meal',
-      liveDemo: '',
+      githubLink: '',
+      liveDemo: 'https://www.trackameal.com',
       image: TrackAMealImage
     }
   ];
