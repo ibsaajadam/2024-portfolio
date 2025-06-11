@@ -40,15 +40,15 @@ function ProjectsPage() {
   ];
 
   const personalProjects = [
-    {
-      title: 'Flick BFF',
-      description:
-        'A Next.js social network that lets users build a favorites list of movies and shows, rate them, and connect with others based on shared taste. Features include matches, messaging, notifications, star ratings, full movie/show pages via the TMDB API, and user privacy settings.',
-      techStack: ['Next.js', 'React', 'Tailwind CSS', 'Supabase', 'TMDB API'],
-      githubLink: '',
-      liveDemo: 'https://www.flickbff.com',
-      image: FlickBFFImage
-    },    
+    // {
+    //   title: 'Flick BFF',
+    //   description:
+    //     'A Next.js social network that lets users build a favorites list of movies and shows, rate them, and connect with others based on shared taste. Features include matches, messaging, notifications, star ratings, full movie/show pages via the TMDB API, and user privacy settings.',
+    //   techStack: ['Next.js', 'React', 'Tailwind CSS', 'Supabase', 'TMDB API'],
+    //   githubLink: '',
+    //   liveDemo: 'https://www.flickbff.com',
+    //   image: FlickBFFImage
+    // },    
     {
       title: 'Track A Meal',
       description:
