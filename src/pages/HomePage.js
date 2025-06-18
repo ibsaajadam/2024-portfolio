@@ -13,6 +13,7 @@ function HomePage() {
             Ibsaa Jamal Adam
           </h2>
           <p className="lead">I'm a Junior Web Developer with experience in Drupal, React, PHP, and more.</p>
+
           <Image 
             src={myPhoto} 
             alt="My Photo"
@@ -24,14 +25,18 @@ function HomePage() {
             }} 
             className="mb-4"
           />
-          
+
           <p>
-            Check out my projects below and feel free to reach out!
+            I also created <strong>Flick BFF</strong>, a social network built with the help of AI that matches users based on shared movie and show preferences.
+            Built using <strong>Next.js, Supabase</strong> for auth, <strong>Resend.com</strong> for email notifications, and <strong>Stripe</strong> for payments. 
+            You can find me on the platform at <a href="https://www.flickbff.com/uncleibz" target="_blank" rel="noopener noreferrer">@uncleibz</a>.
           </p>
 
-          <Link to="/projects" className="btn btn-primary" style={{ marginRight: '20px' }}>View My Projects</Link>
+          <p>Check out my projects below and feel free to reach out!</p>
+
+          <Link to="/projects" className="btn btn-primary me-3">View My Projects</Link>
           <Button 
-            variant="outline-dark" 
+            variant="outline-dark"
             style={{ backgroundColor: '#f8f9fa', color: '#000' }}
             href="https://drive.google.com/file/d/1FpYZAjAjEtqyTFUokH0aP92RFZYYtx-J/view?usp=sharing"
             target="_blank"
@@ -42,10 +47,12 @@ function HomePage() {
         </Col>
       </Row>
 
-      {/* Quote at the bottom */}
+      {/* Quote at the very bottom */}
       <Row className="mt-5">
         <Col>
-          <p style={{ fontStyle: 'italic', color: '#6c757d' }}>"Understanding is Key"</p>
+          <p style={{ fontStyle: 'italic', color: '#6c757d' }}>
+            "Understanding is key."
+          </p>
         </Col>
       </Row>
     </Container>
