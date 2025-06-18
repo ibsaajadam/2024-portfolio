@@ -29,7 +29,7 @@ function HomePage() {
           <p>
             I also created <strong>Flick BFF</strong>, a social network built with the help of AI that matches users based on shared movie and show preferences.
             Built using <strong>Next.js, Supabase</strong> for auth, <strong>Resend.com</strong> for email notifications, and <strong>Stripe</strong> for payments. 
-            You can find me on the platform at <a href="https://www.flickbff.com/uncleibz" target="_blank" rel="noopener noreferrer">@uncleibz</a>.
+            You can find me on the platform at <a href="https://www.flickbff.com" target="_blank" rel="noopener noreferrer">uncleibz</a>.
           </p>
 
           <p>Check out my projects below and feel free to reach out!</p>
