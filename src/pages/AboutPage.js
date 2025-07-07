@@ -10,7 +10,7 @@ function AboutPage() {
 
           <Button
             variant="dark"
-            href="https://drive.google.com/file/d/1FpYZAjAjEtqyTFUokH0aP92RFZYYtx-J/view?usp=sharing"
+            href="https://drive.google.com/file/d/1lUy4L7Jk2CT8ZGp3BReWy28GXP-XqrhU/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="mb-4"
