@@ -5,7 +5,7 @@ import { FcGoogle } from 'react-icons/fc';
 import jobBoardImage from '../assets/job-board-image.png';
 import reviewSpotterImage from '../assets/review-spotter-image.png';
 import doggoImage from '../assets/doggo-image.png';
-import FlickBFFImage from '../assets/official-flickbff.png';
+import FlickBFFImage from '../assets/flickbffImage.png';
 import TrackAMealImage from '../assets/trackameal.png';
 
 function ProjectsPage() {

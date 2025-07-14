@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import myPhoto from '../assets/my-photo.jpg';
+import flickbffImage from '../assets/flickbffImage.jpg';
 
 function HomePage() {
   return (
@@ -28,9 +29,19 @@ function HomePage() {
 
           <p>
             I also created <strong>Flick BFF</strong>, a social network built with the help of AI that matches users based on shared movie and show preferences.
-            Built using <strong>Next.js, Supabase</strong> for auth, <strong>Resend.com</strong> for email notifications, and <strong>Stripe</strong> for payments. 
+            Built using <strong>Next.js</strong>, <strong>Supabase</strong> for auth, <strong>Resend.com</strong> for email notifications, and <strong>Stripe</strong> for payments. 
             You can find me on the platform at <a href="https://flickbff.com/uncleibz" target="_blank" rel="noopener noreferrer">uncleibz</a>.
           </p>
+
+          {/* Clickable Flick BFF Image */}
+          <a href="https://www.flickbff.com" target="_blank" rel="noopener noreferrer">
+            <Image 
+              src={flickbffImage}
+              alt="Flick BFF Preview"
+              style={{ width: '100%', maxWidth: '600px', borderRadius: '12px', marginBottom: '20px' }}
+              fluid
+            />
+          </a>
 
           <p>Check out my projects below and feel free to reach out!</p>
 
