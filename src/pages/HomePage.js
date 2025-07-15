@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import myPhoto from '../assets/my-photo.jpg';
-import flickbffImage from '../assets/flickbffImage.jpg';
+import flickbffImage from '../assets/flickbffImage.png';
 
 function HomePage() {
   return (

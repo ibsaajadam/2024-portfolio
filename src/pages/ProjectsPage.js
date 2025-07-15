@@ -34,7 +34,7 @@ function ProjectsPage() {
         'A PHP and MySQL project with an API that searches for different dog breeds. Uses JavaScript for dynamic interaction.',
       techStack: ['PHP', 'MySQL', 'JavaScript', 'Dog Breed API'],
       githubLink: 'https://github.com/ibsaajadam/hey-buddy-php-mysql',
-      liveDemo: '',
+      liveDemo: 'https://thatsmydoggo.fwh.is/',
       image: doggoImage
     }
   ];
