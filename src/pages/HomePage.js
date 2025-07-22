@@ -26,6 +26,16 @@ function HomePage() {
             }} 
             className="mb-4"
           />
+          <Link to="/projects" className="btn btn-primary me-3">View My Projects</Link>
+          <Button 
+            variant="outline-dark"
+            style={{ backgroundColor: '#f8f9fa', color: '#000' }}
+            href="https://drive.google.com/file/d/1RVkvlAqSTajkGp_mtiPWquOjWU2ENwdo/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Resume
+          </Button>
 
           <p>
             I also created <strong>Flick BFF</strong>, a social network built with the help of AI that matches users based on shared movie and show preferences.
@@ -45,7 +55,7 @@ function HomePage() {
 
           <p>Check out my projects below and feel free to reach out!</p>
 
-          <Link to="/projects" className="btn btn-primary me-3">View My Projects</Link>
+          {/* <Link to="/projects" className="btn btn-primary me-3">View My Projects</Link>
           <Button 
             variant="outline-dark"
             style={{ backgroundColor: '#f8f9fa', color: '#000' }}
@@ -54,7 +64,7 @@ function HomePage() {
             rel="noopener noreferrer"
           >
             View Resume
-          </Button>
+          </Button> */}
         </Col>
       </Row>
 
