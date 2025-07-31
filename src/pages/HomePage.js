@@ -15,6 +15,7 @@ function HomePage() {
           </h2>
           <p className="lead">I'm a Junior Web Developer with experience in Drupal, React, PHP, and more.</p>
 
+          {/* Profile Image */}
           <Image 
             src={myPhoto} 
             alt="My Photo"
@@ -24,8 +25,22 @@ function HomePage() {
               objectFit: 'cover',
               borderRadius: '50%'
             }} 
-            className="mb-4"
+            className="mb-3"
           />
+
+          {/* Buttons directly under profile image */}
+          <div className="mb-4">
+            <Link to="/projects" className="btn btn-primary me-3">View My Projects</Link>
+            <Button 
+              variant="outline-dark"
+              style={{ backgroundColor: '#f8f9fa', color: '#000' }}
+              href="https://drive.google.com/file/d/1uC3t5_S3Pv9ggGFqQILTVS9AzjPD-smZ/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Resume
+            </Button>
+          </div>
 
           <p>
             I also created <strong>Flick BFF</strong>, a social network built with the help of AI that matches users based on shared movie and show preferences.
@@ -44,17 +59,6 @@ function HomePage() {
           </a>
 
           <p>Check out my projects below and feel free to reach out!</p>
-
-          <Link to="/projects" className="btn btn-primary me-3">View My Projects</Link>
-          <Button 
-            variant="outline-dark"
-            style={{ backgroundColor: '#f8f9fa', color: '#000' }}
-            href="https://drive.google.com/file/d/1UQSfPt9RE5V_1YWCbon7gieTkAT4h8ak/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Resume
-          </Button>
         </Col>
       </Row>
 
